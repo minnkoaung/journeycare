@@ -1,0 +1,341 @@
+.site_text{
+    font-family: 'Raleway', sans-serif !important;
+}
+.site_title{
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+p,a,span,footer{
+    font-family: 'Raleway', sans-serif !important;
+}
+.jc_nav_link{
+    height: 80px;
+    overflow: hidden;
+    transition: all 0.2s ease-in;
+}
+.home{
+    width: 72px;
+    background-image: url(../images/journeycare_img_06.png);
+    background-position: 0 0px;
+}
+.home:hover{
+    background-position: 0 79px;
+}
+.active{
+     background-position: 0 79px !important;
+}
+.about{
+    width: 90px;
+    background-image: url(../images/journeycare_img_08.png);
+    background-position: 0 0px;
+}
+.about:hover{
+    background-position: 0 79px;
+}
+.service{
+    width: 90px;
+    background-image: url(../images/journeycare_img_10.png);
+    background-position: 0 0px;
+}
+.service:hover{
+    background-position: 0 79px;
+}
+.search{
+    width: 115px;
+    background-image: url(../images/journeycare_img_12.png);
+    background-position: 0 0px;
+}
+.search:hover{
+    background-position: 0 79px;
+}
+.search{
+    width: 115px;
+    background-image: url(../images/journeycare_img_12.png);
+    background-position: 0 0px;
+}
+.search:hover{
+    background-position: 0 79px;
+}
+.faq{
+    width: 60px;
+    background-image: url(../images/journeycare_img_14.png);
+    background-position: 0 0px;
+}
+.faq:hover{
+    background-position: 0 79px;
+}
+.contact{
+    width: 110px;
+    background-image: url(../images/journeycare_img_16.png);
+    background-position: 0 0px;
+}
+.contact:hover{
+    background-position: 0 79px;
+}
+.social{
+    margin-left: 10px;
+    margin-top: 13px;
+}
+
+.hero_fluid{
+    height: 558px;
+    background-image: url(../images/journeycare_img_32.png);
+}
+.abt_fluid{
+    min-height:280px;
+    background-image: url(../images/about_us_bg.png);   
+}
+.abt_col{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ourservices_col h2{
+    padding: 60px 0 80px 0;
+}
+.my_seperator{
+    height: 70px;
+    border-bottom: 1px solid #e6e5e5;
+    margin-bottom: 70px;
+}
+.my_seperator2{
+    height: 30px;
+}
+.fullseperator{
+    height: 5px;
+    background-image: url(../images/seperator.png);
+    background-repeat: repeat-x;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+/*-------------------------- buttons -----------------------------*/
+.btn-warning{
+    background: #fea500;
+    color: #fff;
+    border: 1px solid #ff8601;
+    transition: all 0.3s ease-in;
+}
+.btn-warning:hover{
+    background: #ff8601;
+    color: #fff;
+    border: 1px solid #fea500;
+}
+/*--------------------------fonts --------------------------------*/
+.footer_container_fluid{
+    background: #393939;
+    min-height: 85px;
+}
+.footer_container_fluid2{
+    background: #f26522;
+    min-height: 80px;
+}
+.footer_tx1{
+     line-height: 85px;
+    color: #fff;
+}
+.footer_tx2{
+    line-height: 80px;
+    color: #fff;
+}
+
+/*----------------------------------------------  about us -----------------------------------------------*/
+
+.nav_title_container_fluid {
+    min-height: 244px;
+    background-image: url(../images/subpages_hero_abtus.jpg);
+    background-repeat: no-repeat;
+}
+.nav_title_services_container_fluid{
+    min-height: 244px;
+    background-image: url(../images/sub_pages_heros_services.png);
+    background-repeat: no-repeat;
+}
+.nav_title_contact_container_fluid{
+     min-height: 244px;
+    background-image: url(../images/contactus_02.png);
+    background-repeat: no-repeat;
+}
+.nav_title_container_faq_fluid{
+    min-height: 244px;
+    background-image: url(../images/faq_bg_02.png);
+    background-repeat: no-repeat;
+}
+.nav_title_container_search_fluid{
+     min-height: 244px;
+    background-image: url(../images/searchmaid_bg.png);
+    background-repeat: no-repeat;
+}
+
+.site_nav_text {
+    line-height: 165px;
+    font-size: 1.6em;
+}
+
+.short_contents {
+    min-height: 700px !important;
+}
+
+.abt_container {
+    padding: 100px 0px 100px 0;
+}
+
+
+
+
+/*-----------------------------------------------  Services ----------------------------------------*/
+
+.services_col {
+    padding: 16px 8px 16px 8px;
+}
+
+.services_type {
+    padding-left: 0px;
+}
+
+.services_type li {
+    height: 19px;
+    margin: 20px 0;
+    /* not needed, just to add space between the li's */
+    background: url('../images/bullet.png') no-repeat left center;
+    list-style: none;
+    /* Get rid of the default bullet points */
+    padding-left: 25px;
+    /* Offsets the text. Needs to be at least the width of your image */
+    line-height: 20px;
+    /* Might have to play with this value a bit */
+}
+
+
+/*-------------------------------------------- FAQS ------------------------------------------*/
+
+.faqs_container {
+    padding: 10px 0 10px 0;
+}
+
+.faqs_row {
+    padding: 16px;
+}
+
+.accord_text_links {
+    color: #000 !important;
+    font-weight: bolder;
+    text-decoration: none !important;
+}
+
+.send_btn {
+background: #ffbe00; /* Old browsers */
+background: -moz-linear-gradient(left, #ffbe00 0%, #ff8e01 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ffbe00 0%,#ff8e01 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ffbe00 0%,#ff8e01 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbe00', endColorstr='#ff8e01',GradientType=1 ); /* IE6-9 */
+border-color: #65625f;
+color: #fff;
+height: 65px;
+line-height: 45px;
+}
+.send_btn:hover{
+    background: #333;
+}
+
+
+/*-----------------------------------search maid-----------------------------------------*/
+.search_content_fluid{
+    padding-top: 50px;
+}
+.search_maid_form {
+    background-color: #f1f1f1;
+    height: auto;
+    border: 1px solid #dfdfdf;
+}
+
+.filter_title {
+    display: block;
+    width: inherit;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #d5d6d8;
+}
+
+.filter_title_light {
+    background-color: #f1f1f1;
+}
+
+.form_section_title_label {
+    display: block;
+}
+
+.search_maid_form_group {
+    padding: 0px 16px 0px 16px;
+}
+
+.ref_no input {
+    width: 100%;
+}
+
+.maid_card {
+    margin-bottom: 16px;
+    padding-top: 16px;
+    border: none;
+    background-color: transparent;
+}
+.search_btn{
+    background: #ffbe00; /* Old browsers */
+background: -moz-linear-gradient(left, #ffbe00 0%, #ff8e01 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ffbe00 0%,#ff8e01 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ffbe00 0%,#ff8e01 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbe00', endColorstr='#ff8e01',GradientType=1 ); /* IE6-9 */
+color: #fff;
+height: 40px;
+border-color: orange;
+border-radius: 0px;
+}
+.search_btn:hover{
+    border-color: #3a3a3a;
+}
+
+/*----------autoalignImages-----------*/
+.card_img_container {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    max-height: 242px;
+}
+.card_img_container img{
+    width: 100%;
+    height: 100%;
+}
+/*----------autoalignImages-----------*/
+
+.card-body {
+    background-color: #f1f1f1;
+    border-radius: 0px;
+}
+
+.maid-photo-wrap{
+  z-index: 1;
+   width: 100%;
+  height: 260px;
+  display: block;
+    background-image: url('http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_527bf56961712_1.JPG');
+    -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+.content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  z-index: 9999;
+/*  margin-left: 20px;
+  margin-right: 20px;*/
+}
+
